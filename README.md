@@ -3,6 +3,8 @@
 
 # Gain selection
 ![AVIA Semiconductor HX711 24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales: Fig.2 Data output, input and gain selection timing and control](/Assets/Images/hx711_gain_selection.JPG)
+Source: [HX711 Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf)
+
 In the example MOSI is used as CLK to produce the required number of cycles/pulses for HX711. It enables straightforward use of DMA just by calling HAL_SPI_TransmitReceive_DMA().
 
 # Missing files?
@@ -23,7 +25,8 @@ After:
 # Call for action
 Build your own [home laboratory/workshop](http://ufnalski.edu.pl/control_engineering_for_hobbyists/2024_dzien_otwarty_we/Dzien_Otwarty_WE_2024_Control_Engineering_for_Hobbyists.pdf)! Get inspired by [ControllersTech](https://www.youtube.com/@ControllersTech), [DroneBot Workshop](https://www.youtube.com/@Dronebotworkshop), [Andreas Spiess](https://www.youtube.com/@AndreasSpiess), [GreatScott!](https://www.youtube.com/@greatscottlab), [ElectroBOOM](https://www.youtube.com/@ElectroBOOM), [Phil's Lab](https://www.youtube.com/@PhilsLab), [atomic14](https://www.youtube.com/@atomic14), [That Project](https://www.youtube.com/@ThatProject), [Paul McWhorter](https://www.youtube.com/@paulmcwhorter), and many other professional hobbyists sharing their awesome projects and tutorials! Shoutout/kudos to all of them!
 
-:warning: WARNING: Control engineering - try this at home!
+> [!WARNING]
+> Control engineering - do try this at home :exclamation:
 
 190+ challenges to start from: [Control Engineering for Hobbyists at the Warsaw University of Technology](http://ufnalski.edu.pl/control_engineering_for_hobbyists/Control_Engineering_for_Hobbyists_list_of_challenges.pdf).
 
